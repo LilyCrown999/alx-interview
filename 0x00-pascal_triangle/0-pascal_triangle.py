@@ -5,9 +5,15 @@
 
 
 def pascal_triangle(n):
-    """Create a function def pascal_triangle(n): that returns a list of lists
-    of integers representing the Pascal’s triangle of n
-    """
+    ''' 
+     Function to find Pascal's Triangle integers 
+  
+         Parameters: 
+             n (int): The number of row's of Pascal's triangle 
+  
+         Returns: 
+             pascal_triangle (list): Binary string of the sum of a and b 
+     '''
     res = []
     if n > 0:
         for i in range(1, n + 1):
